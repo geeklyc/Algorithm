@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		02D075942273059B00D3EACC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 02D075932273059B00D3EACC /* main.c */; };
 		02D0759D2273066600D3EACC /* Array_gp.c in Sources */ = {isa = PBXBuildFile; fileRef = 02D0759C2273066600D3EACC /* Array_gp.c */; };
+		043FFD322273ED5700A82D60 /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = 043FFD312273ED5700A82D60 /* Sort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		02D075932273059B00D3EACC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		02D0759B2273066600D3EACC /* Array_gp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array_gp.h; sourceTree = "<group>"; };
 		02D0759C2273066600D3EACC /* Array_gp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Array_gp.c; sourceTree = "<group>"; };
+		043FFD302273ED5700A82D60 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		043FFD312273ED5700A82D60 /* Sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Sort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				02D075932273059B00D3EACC /* main.c */,
+				043FFD2C2273E9B300A82D60 /* Sort */,
 				02D0759A2273064400D3EACC /* Array */,
 			);
 			path = "Algorithm-C";
@@ -73,6 +77,15 @@
 				02D0759C2273066600D3EACC /* Array_gp.c */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		043FFD2C2273E9B300A82D60 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				043FFD302273ED5700A82D60 /* Sort.h */,
+				043FFD312273ED5700A82D60 /* Sort.c */,
+			);
+			path = Sort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +146,7 @@
 			files = (
 				02D0759D2273066600D3EACC /* Array_gp.c in Sources */,
 				02D075942273059B00D3EACC /* main.c in Sources */,
+				043FFD322273ED5700A82D60 /* Sort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

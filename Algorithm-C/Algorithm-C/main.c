@@ -10,21 +10,24 @@
 
 #include "Array_gp.h"
 
+#include "Sort.h"
+
 int main(int argc, const char * argv[]) {
     
-    Array *array = arrayCreate();
-    arrayInit(array, 10, sizeof(int));
-
-    for (int i = 0; i < 10; i++) {
-        
-        arrayInsert(array, 1, &i);
-    }
-    
-    for (int i = 0; i < arrayLen(array); i++) {
-        
-        int *a = arrayIndex(array, i + 1);
-        printf("index = %d, value=>%d\n", i, *a);
-    }
+    testSort();
+//    Array *array = arrayCreate();
+//    arrayInit(array, 10, sizeof(int));
+//
+//    for (int i = 0; i < 10; i++) {
+//
+//        arrayInsert(array, 1, &i);
+//    }
+//
+//    for (int i = 0; i < arrayLen(array); i++) {
+//
+//        int *a = arrayIndex(array, i + 1);
+//        printf("index = %d, value=>%d\n", i, *a);
+//    }
     
     return 0;
 }
