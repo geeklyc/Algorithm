@@ -12,9 +12,25 @@
 
 #include "Sort.h"
 
+#include "LinkStack.h"
+#include "LinkQueue.h"
+
+#include "ListTest.h"
+
+#include "BSearch.h"
+
 int main(int argc, const char * argv[]) {
     
-    testSort();
+//    listTest();
+    bSearchTest();
+    
+    
+//    testSort();
+
+//    stackTest();
+//    queueTest();
+    
+    
 //    Array *array = arrayCreate();
 //    arrayInit(array, 10, sizeof(int));
 //

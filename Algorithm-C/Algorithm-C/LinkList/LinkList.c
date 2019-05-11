@@ -6,7 +6,7 @@
 //  Copyright © 2019 Giga. All rights reserved.
 //
 
-#include "ListNodeDemo.h"
+#include "LinkList.h"
 
 #include <stdlib.h>
 

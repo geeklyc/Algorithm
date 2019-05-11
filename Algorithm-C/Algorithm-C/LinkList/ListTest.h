@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void listTest(void);
+
 #endif /* ListTest_h */

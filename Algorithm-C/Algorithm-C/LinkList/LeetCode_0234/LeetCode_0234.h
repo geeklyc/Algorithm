@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void test_LeetCode_0234(void);
+
 #endif /* LeetCode_0234_h */

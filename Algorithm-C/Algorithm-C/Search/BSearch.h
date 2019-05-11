@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+void bSearchTest(void);
+
 #endif /* BSearch_h */

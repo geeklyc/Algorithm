@@ -6,12 +6,13 @@
 //  Copyright © 2019 Giga. All rights reserved.
 //
 
-#ifndef ListNodeDemo_h
-#define ListNodeDemo_h
+#ifndef LinkList_h
+#define LinkList_h
 
 #include <stdio.h>
 
 struct ListNode {
+    
     int val;
     struct ListNode *next;
 };
@@ -22,4 +23,4 @@ struct ListNode *createList(int arr[], int size);
 
 void printList(struct ListNode *list);
 
-#endif /* ListNodeDemo_h */
+#endif /* LinkList_h */
