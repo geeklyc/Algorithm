@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
             endingLineNumber = "62"
-            landmarkName = "mergeTwoLists"
+            landmarkName = "mergeTwoLists()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -31,7 +31,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
-            landmarkName = "mergeTwoLists"
+            landmarkName = "mergeTwoLists()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

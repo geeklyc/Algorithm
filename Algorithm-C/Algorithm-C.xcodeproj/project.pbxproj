@@ -18,6 +18,8 @@
 		023EA46F227D9BDD00046497 /* ListTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 023EA46E227D9BDD00046497 /* ListTest.c */; };
 		023EA473227D9E1200046497 /* LeetCode_0019.c in Sources */ = {isa = PBXBuildFile; fileRef = 023EA472227D9E1200046497 /* LeetCode_0019.c */; };
 		023EA477227DA05500046497 /* LeetCode_0876.c in Sources */ = {isa = PBXBuildFile; fileRef = 023EA476227DA05500046497 /* LeetCode_0876.c */; };
+		028EA38722A0E17400FC4EC7 /* ArrayStack.c in Sources */ = {isa = PBXBuildFile; fileRef = 028EA38622A0E17400FC4EC7 /* ArrayStack.c */; };
+		028EA38A22A0E75A00FC4EC7 /* ArrayQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 028EA38922A0E75A00FC4EC7 /* ArrayQueue.c */; };
 		029F6E502280053E00670EA3 /* BSearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 029F6E4F2280053E00670EA3 /* BSearch.c */; };
 		02D075942273059B00D3EACC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 02D075932273059B00D3EACC /* main.c */; };
 		02D0759D2273066600D3EACC /* Array_gp.c in Sources */ = {isa = PBXBuildFile; fileRef = 02D0759C2273066600D3EACC /* Array_gp.c */; };
@@ -59,6 +61,10 @@
 		023EA472227D9E1200046497 /* LeetCode_0019.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCode_0019.c; sourceTree = "<group>"; };
 		023EA475227DA05500046497 /* LeetCode_0876.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCode_0876.h; sourceTree = "<group>"; };
 		023EA476227DA05500046497 /* LeetCode_0876.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LeetCode_0876.c; sourceTree = "<group>"; };
+		028EA38522A0E17400FC4EC7 /* ArrayStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayStack.h; sourceTree = "<group>"; };
+		028EA38622A0E17400FC4EC7 /* ArrayStack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayStack.c; sourceTree = "<group>"; };
+		028EA38822A0E75A00FC4EC7 /* ArrayQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayQueue.h; sourceTree = "<group>"; };
+		028EA38922A0E75A00FC4EC7 /* ArrayQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ArrayQueue.c; sourceTree = "<group>"; };
 		029F6E4E2280053E00670EA3 /* BSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSearch.h; sourceTree = "<group>"; };
 		029F6E4F2280053E00670EA3 /* BSearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BSearch.c; sourceTree = "<group>"; };
 		02D075902273059B00D3EACC /* Algorithm-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm-C"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +107,8 @@
 		023EA4532279E73800046497 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				028EA38522A0E17400FC4EC7 /* ArrayStack.h */,
+				028EA38622A0E17400FC4EC7 /* ArrayStack.c */,
 				023EA4542279E88800046497 /* LinkStack.h */,
 				023EA4552279E88800046497 /* LinkStack.c */,
 			);
@@ -112,6 +120,8 @@
 			children = (
 				023EA458227D53F800046497 /* LinkQueue.h */,
 				023EA459227D53F800046497 /* LinkQueue.c */,
+				028EA38822A0E75A00FC4EC7 /* ArrayQueue.h */,
+				028EA38922A0E75A00FC4EC7 /* ArrayQueue.c */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -293,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D0759D2273066600D3EACC /* Array_gp.c in Sources */,
+				028EA38722A0E17400FC4EC7 /* ArrayStack.c in Sources */,
 				023EA44E2279D1D800046497 /* LinkList.c in Sources */,
 				023EA473227D9E1200046497 /* LeetCode_0019.c in Sources */,
 				023EA4562279E88800046497 /* LinkStack.c in Sources */,
@@ -304,6 +315,7 @@
 				023EA477227DA05500046497 /* LeetCode_0876.c in Sources */,
 				023EA464227D95FB00046497 /* LeetCode_0206.c in Sources */,
 				02D075942273059B00D3EACC /* main.c in Sources */,
+				028EA38A22A0E75A00FC4EC7 /* ArrayQueue.c in Sources */,
 				023EA468227D97A800046497 /* LeetCode_0141.c in Sources */,
 				029F6E502280053E00670EA3 /* BSearch.c in Sources */,
 				043FFD322273ED5700A82D60 /* Sort.c in Sources */,
